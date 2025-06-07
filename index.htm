@@ -10,7 +10,7 @@
             padding: 0;
             font-family: 'Arial', sans-serif;
             direction: rtl;
-            background: url('https://armin-sargolzaie.github.io/baner/1.jpeg') no-repeat center center fixed;
+            background: url('1.jpeg') no-repeat center center fixed;
             background-size: cover;
             height: 100vh;
             display: flex;
@@ -19,26 +19,43 @@
             color: #333;
         }
         .content {
-            background: rgba(255, 255, 255, 0.8);
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), #1e90ff);
             padding: 20px;
             border-radius: 10px;
             text-align: center;
+            width: 80%;
+            max-width: 600px;
         }
         h1 {
-            font-size: 2em;
-            color: #1e90ff;
+            font-size: 2.5em;
+            color: #fff;
+            margin: 0 0 20px;
+            text-transform: uppercase;
         }
         p {
             font-size: 1.2em;
+            color: #fff;
+            margin: 5px 0;
             line-height: 1.5;
+            font-weight: bold;
+        }
+        .address {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .address span {
+            margin: 0 10px;
         }
     </style>
 </head>
 <body>
     <div class="content">
         <h1>نوآوری در حضور دیجیتال شما</h1>
-        <p>آدرس: خیابان دانشگاه</p>
-        <p>تلفن: 09107329001</p>
+        <div class="address">
+            <span>خیابان دانشگاه</span>
+            <span>09107329001</span>
+        </div>
         <p>خدمات حرفه‌ای طراحی وب‌سایت با بهترین کیفیت</p>
     </div>
 </body>
