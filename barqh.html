@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شبکه تولید و انتقال برق سیستان و بلوچستان</title>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Vazirmatn', sans-serif;
+            background-color: #f0f0f0;
+            direction: rtl;
+        }
+        .slideshow-container {
+            position: relative;
+            max-width: 1000px;
+            margin: auto;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .slide {
+            display: none;
+            width: 100%;
+            height: 80vh;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            padding: 20px;
+            text-align: right;
+            overflow: hidden;
+        }
+        .slide.active {
+            display: block;
+        }
+        .slide h1 {
+            font-size: 2em;
+            color: #003087;
+            margin-bottom: 10px;
+        }
+        .slide h2 {
+            font-size: 1.5em;
+            color: #004d40;
+        }
+        .slide p, .slide ul {
+            font-size: 1.2em;
+            color: #333;
+            line-height: 1.6;
+        }
+        .slide ul {
+            list-style-type: disc;
+            margin-right: 20px;
+        }
+        .slide img {
+            max-width: 50%;
+            height: auto;
+            border-radius: 5px;
+            float: left;
+            margin-right: 20px;
+        }
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            color: white;
+            background-color: rgba(0,0,0,0.5);
+            font-weight: bold;
+            font-size: 18px;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+        .next {
+            left: 0;
+            border-radius: 3px 0 0 3px;
+        }
+        .prev:hover, .next:hover {
+            background-color: rgba(0,0,0,0.8);
+        }
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+        .table th, .table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: right;
+        }
+        .table th {
+            background-color: #003087;
+            color: white;
+        }
+        @media screen and (max-width: 600px) {
+            .slide h1 { font-size: 1.5em; }
+            .slide p, .slide ul { font-size: 1em; }
+            .slide img { max-width: 100%; float: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="slideshow-container">
+        <!-- اسلاید ۱ -->
+        <div class="slide active">
+            <h1>بررسی جامع شبکه تولید و انتقال برق در سیستان و بلوچستان</h1>
+            <h2>با تأکید بر نیروگاه‌ها و پست‌های برق زاهدان</h2>
+            <p>ارائه‌دهنده: [نام شما]</p>
+            <p>تاریخ: ۱۵ ژوئن ۲۰۲۵</p>
+            <img src="https://source.unsplash.com/800x600/?power-plant" alt="نیروگاه">
+        </div>
+
+        <!-- اسلاید ۲ -->
+        <div class="slide">
+            <h1>فهرست مطالب</h1>
+            <ul>
+                <li>۱. مقدمه و نیازمندی‌های منطقه</li>
+                <li>۲. نیروگاه‌های حرارتی</li>
+                <li>۳. نیروگاه‌های دیزلی و ذخیره‌ای</li>
+                <li>۴. پروژه‌های تجدیدپذیر</li>
+                <li>۵. شبکه انتقال و پست‌های زاهدان</li>
+                <li>۶. چالش‌ها و راهکارها</li>
+                <li>۷. چشم‌انداز آینده</li>
+                <li>۸. نتیجه‌گیری</li>
+            </ul>
+        </div>
+
+        <!-- اسلاید ۳ -->
+        <div class="slide">
+            <h1>مقدمه و نیازمندی‌های منطقه</h1>
+            <ul>
+                <li>موقعیت: مرز با پاکستان و افغانستان</li>
+                <li>جمعیت: ~۲.۵ میلیون نفر</li>
+                <li>چالش‌ها: پراکندگی، کمبود آب، شرایط اقلیمی</li>
+                <li>اهداف: کاهش خاموشی، توسعه انرژی پاک</li>
+            </ul>
+            <img src="https://source.unsplash.com/800x600/?map" alt="نقشه">
+        </div>
+
+        <!-- اسلاید ۴ -->
+        <div class="slide">
+            <h1>نیروگاه گازی زاهدان</h1>
+            <ul>
+                <li>ظرفیت اسمی: ۲۲۶.۲ مگاوات</li>
+                <li>بهره‌برداری: ۱۳۶۵–۱۳۷۶ (۳ فاز)</li>
+                <li>سوخت: گاز طبیعی (اصلی)، گازوئیل (پشتیبان)</li>
+                <li>راندمان: ۱۵۳ مگاوات (تابستان)، ۱۶۲ مگاوات (زمستان)</li>
+                <li>نقش: تأمین بار پایه</li>
+            </ul>
+            <img src="https://source.unsplash.com/800x600/?gas-turbine" alt="توربین گازی">
+        </div>
+
+        <!-- اسلاید ۵ -->
+        <div class="slide">
+            <h1>نیروگاه سیکل ترکیبی ایرانشهر</h1>
+            <ul>
+                <li>ظرفیت: ۷۴۰ مگاوات (گاز: ۴۸۴ مگاوات، بخار: ۲۵۶ مگاوات)</li>
+                <li>بهره‌برداری: ۱۳۹۲–۱۳۹۳</li>
+                <li>راندمان: ۵۰–۵۴٪</li>
+                <li>نقش: پشتیبانی بار اوج</li>
+            </ul>
+            <img src="https://source.unsplash.com/800x600/?combined-cycle" alt="نیروگاه سیکل ترکیبی">
+        </div>
+
+        <!-- اسلاید ۶ -->
+        <div class="slide">
+            <h1>نیروگاه‌های چابهار و کنارک</h1>
+            <ul>
+                <li>چابهار: ۴۷۸ مگاوات (۶ واحد)</li>
+                <li>کنارک: ۱۵۰ مگاوات (۲ واحد)</li>
+                <li>نقش: تأمین برق صنایع بندری و منطقه آزاد</li>
+                <li>چالش: تأمین گاز در زمستان</li>
+            </ul>
+            <img src="https://source.unsplash.com/800x600/?port" alt="بندر چابهار">
+        </div>
+
+        <!-- اسلاید ۷ -->
+        <div class="slide">
+            <h1>نیروگاه‌های دیزلی</h1>
+            <ul>
+                <li>ظرفیت: ۲۴–۳۰ مگاوات در هر واحد</li>
+                <li>مکان‌ها: ایرانشهر، خاش، سراوان، زاهدان</li>
+                <li>نقش: پشتیبانی در پیک بار و قطعی‌ها</li>
+            </ul>
+            <img src="https://source.unsplash.com/800x600/?diesel-generator" alt="ژنراتور دیزلی">
+        </div>
+
+        <!-- اسلاید ۸ -->
+        <div class="slide">
+            <h1>نیروگاه‌های خورشیدی</h1>
+            <ul>
+                <li>چشمه زیارت: ۱۰ مگاوات (۱۳۹۷)</li>
+                <li>پروژه‌های کوچک: ۹۹ مگاوات (مناقصه ۱۴۰۳)</li>
+                <li>چشم‌انداز: ۲۰۰ مگاوات برای روستاها</li>
+            </ul>
+            <img src="https://source.unsplash.com/800x600/?solar-panel" alt="پنل خورشیدی">
+        </div>
+
+        <!-- اسلاید ۹ -->
+        <div class="slide">
+            <h1>نیروگاه بادی میل نادر</h1>
+            <ul>
+                <li>ظرفیت: ۵۰ مگاوات (۲۰ توربین)</li>
+                <li>بهره‌برداری: ۱۴۰۰</li>
+                <li>پتانسیل: سرعت باد ۷–۸ متر/ثانیه</li>
+                <li>چالش: زمین سنگلاخی</li>
+            </ul>
+            <img src="https://source.unsplash.com/800x600/?wind-turbine" alt="توربین بادی">
+        </div>
+
+        <!-- اسلاید ۱۰ -->
+        <div class="slide">
+            <h1>پست‌های برق زاهدان (۱)</h1>
+            <ul>
+                <li>پست ۴۰۰/۲۳۰ کیلوولت نبوت: رینگ شرق، ظرفیت ۳۰۰ MVA</li>
+                <li>پست ۲۳۰/۲۰ کیلوولت پارود: ظرفیت ۵۳ MVA (۱۴۰۲)</li>
+            </ul>
+            <img src="https://source.unsplash.com/800x600/?substation" alt="پست برق">
+        </div>
+
+        <!-- اسلاید ۱۱ -->
+        <div class="slide">
+            <h1>پست‌های برق زاهدان (۲)</h1>
+            <ul>
+                <li>پست موقت پارود: ۱۴۰۰</li>
+                <li>پست ۲۳۰/۶۳ کیلوولت کامبوزیا: ۴۰ مگاوات (صنایع)</li>
+                <li>پست شرق زاهدان: پروژه EPC از ۱۳۹۶</li>
+            </ul>
+            <table class="table">
+                <tr><th>پست</th><th>ظرفیت</th><th>سال</th></tr>
+                <tr><td>پارود موقت</td><td>-</td><td>۱۴۰۰</td></tr>
+                <tr><td>کامبوزیا</td><td>۴۰ مگاوات</td><td>-</td></tr>
+                <tr><td>شرق زاهدان</td><td>-</td><td>۱۳۹۶</td></tr>
+            </table>
+        </div>
+
+        <!-- اسلاید ۱۲ -->
+        <div class="slide">
+            <h1>چالش‌ها و راهکارها</h1>
+            <h2>چالش‌ها:</h2>
+            <ul>
+                <li>کمبود آب</li>
+                <li>تأمین سوخت</li>
+                <li>پایداری شبکه</li>
+            </ul>
+            <h2>راهکارها:</h2>
+            <ul>
+                <li>خنک‌سازی خشک</li>
+                <li>هوشمندسازی</li>
+                <li>سرمایه‌گذاری خصوصی</li>
+            </ul>
+        </div>
+
+        <!-- اسلاید ۱۳ -->
+        <div class="slide">
+            <h1>چشم‌انداز آینده</h1>
+            <ul>
+                <li>۵۰۰ مگاوات تجدیدپذیر تا ۱۴۰۵</li>
+                <li>ذخیره‌سازی انرژی (باتری، پمپ)</li>
+                <li>گسترش رینگ ۴۰۰ کیلوولت</li>
+                <li>تحقیقات فتوولتائیک</li>
+            </ul>
+            <img src="https://source.unsplash.com/800x600/?smart-grid" alt="شبکه هوشمند">
+        </div>
+
+        <!-- اسلاید ۱۴ -->
+        <div class="slide">
+            <h1>نتیجه‌گیری</h1>
+            <ul>
+                <li>ترکیب موفق نیروگاه‌های حرارتی و تجدیدپذیر</li>
+                <li>اهمیت شبکه انتقال</li>
+                <li>گام به سوی انرژی پاک</li>
+                <li>نیاز به سرمایه‌گذاری و فناوری</li>
+            </ul>
+            <img src="https://source.unsplash.com/800x600/?energy" alt="انرژی">
+        </div>
+
+        <!-- اسلاید ۱۵ -->
+        <div class="slide">
+            <h1>منابع و پرسش‌ها</h1>
+            <ul>
+                <li>شرکت برق منطقه‌ای سیستان و بلوچستان</li>
+                <li>وزارت نیرو</li>
+                <li>مقالات دانشگاهی</li>
+            </ul>
+            <h2>سؤالی دارید؟</h2>
+        </div>
+
+        <!-- دکمه‌های ناوبری -->
+        <a class="prev" onclick="changeSlide(-1)">&#10095;</a>
+        <a class="next" onclick="changeSlide(1)">&#10094;</a>
+    </div>
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function changeSlide(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function showSlides(n) {
+            let slides = document.getElementsByClassName("slide");
+            if (n > slides.length) { slideIndex = 1; }
+            if (n < 1) { slideIndex = slides.length; }
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].classList.remove("active");
+            }
+            slides[slideIndex - 1].classList.add("active");
+        }
+    </script>
+</body>
+</html>
